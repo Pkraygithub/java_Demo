@@ -9,6 +9,11 @@ public class java_Demo {
 		for(int aar: aa) {
 			System.out.println(aar);
 		}
+		
+		StringBuffer sb = new StringBuffer("Pankaj Raja");
+		
+		int reverse = sb.reverse().length();
+		System.out.println("Reverse of Lenght is --> "+reverse);
 	}
 
 }
